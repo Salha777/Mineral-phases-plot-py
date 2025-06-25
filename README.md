@@ -59,7 +59,7 @@ Becomes:
 | 1403/ A     | A         | 23   | Nesq                   |
 | 1403/ A     | A         | 23   | Artinite               |
 
-
+The script then plots single phase and biphasic data 
 
 
 
