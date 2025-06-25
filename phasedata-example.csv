@@ -1,0 +1,46 @@
+"Sample/ 
+purpose of experiment",Mg_Source ,T/°C,Main_Phases
+1403/ ,A,23,Nesq + Artinite
+0904,A,23,Nesquehonite 
+-1104,A,23,Nesquehonite 
+1104-SN/ ,A,23,Nesquehonite 
+1104-BSN/ ,A,23,Nesquehonite 
+1604,A,23,Nesquehonite 
+2204,A,23,Nesquehonite 
+3004,A,23,Nesquehonite 
+0305,A,23,Nesquehonite 
+0305-SN,A,23,Nesquehonite 
+0305-SN2,A,23,Nesquehonite 
+0805,A,23,Nesquehonite 
+2905,A,23,Nesquehonite + acetamido complex
+0705,B,23,Nesquehonite 
+1006,C,23,
+1106,D,18,Nesq + E
+R-2407,E,23,Nesq + E
+R-2507,D,24.8,MgCIT
+R-3007,A,23.2,-
+R-3107,A,21,Nesq + Artinite 
+R-0608,A,26.3,Nesquehonite 
+R-1508,A,20.2,Nesquehonite 
+R-0810,A,23.1,Nesquehonite 
+R-1510,A,38.4,Nesquehonite 
+R-1610,C,90,Nesq 
+R-1710,D,90,Nesq + Hydromagnesite (amorphous)
+R-2810,B,90,Nesquehonite 
+R-3010,D,21.4,Nesq + hydromagnesite 
+R-0111,D,19.2,-
+R-0611,D,90,Nesquehonite 
+R-0711,D,25,Nesquehonite 
+R-1211,D,45,Nesq + Hydromagnesite (semi amorphous)
+R-0705-SN,D + E,24.3,-
+R-1211-SN-Spontaneous ,D + E,25,Hydromagnesite 
+R-0611-SN,D + E,25,Nesq + Hydromagnesite
+R-2402,D + E,25,E + Nesq
+R1610-SN,C,25,Ammonium magnesium carbonate hydrate
+3010-SN ,D,25,Hydromagnesite + Lansfordite 
+Rig-0503,C,25,-
+R-1203,C,22,Nesquehonite 
+R-3103,D,22,Nesquehonite 
+R-0104,A,23,Nesquehonite 
+R-1504,A,3,Nesquehonite 
+R-22042025,D,21.2,Nesq + E 
