@@ -1,8 +1,8 @@
 # Mineral-Phases-plot-py 
 Included: 
--phasedata-example.csv
--phasedata-example.xlsx
--scatter-xrd-phases-linked.py
+-phasedata-example.csv   
+-phasedata-example.xlsx  
+-scatter-xrd-phases-linked.py  
 
 This repo contains python scripts for scatter plots of mineralisation data 
 The data we're plotting is available in .csv and excel formats and is split into 4 columns 
