@@ -59,7 +59,8 @@ Becomes:
 | 1403/ A     | A         | 23   | Nesq                   |
 | 1403/ A     | A         | 23   | Artinite               |
 
-The script then plots single phase and biphasic data 
+The script then plots single phase and biphasic data points onto one plot and can show any two phases produced as part of one run, by connecting them with a line. 
+
 
 
 
