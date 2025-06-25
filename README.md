@@ -43,8 +43,21 @@ The first two chunks in the script help clean the data of both MgSource and Main
 Because there are several phases of magnesium carbonate, we decided to arrange them by A. whether or not they were magnesium carbonates or simply unreacted Mg_Sources and B. how much water each phase holds, hence the giorgiosite and ammonium magnesium carbonate at the top of the y axis.   
 
 You can arrange the y axis how you like by adjusting the values assigned to each discrete variable/name in hydration mapping:  
-    "lansfordite": 6,
-    "giorgiosite": 7,  
+"lansfordite": 6,
+"giorgiosite": 7,
+
+extract_hydration_rank will then turn each phase name in Main_Phases into a numerical value that will sit on the y axis.   
+
+From there we split the data into single phase and biphasic rows, while exploding the biphasic rows into two duplicates. e.g. 
+| Sample      | Mg_Source | T/°C | Main_Phases           |
+|-------------|-----------|------|------------------------|
+| 1403/ A     | A         | 23   | Nesq + Artinite        |
+
+Becomes:    
+| 1403/ A     | A         | 23   | Nesq                   |
+| 1403/ A     | A         | 23   | Artinite               |
+
+
 
 
 
