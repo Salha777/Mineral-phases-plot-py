@@ -42,5 +42,9 @@ The first two chunks in the script help clean the data of both MgSource and Main
 
 Because there are several phases of magnesium carbonate, we decided to arrange them by A. whether or not they were magnesium carbonates or simply unreacted Mg_Sources and B. how much water each phase holds, hence the giorgiosite and ammonium magnesium carbonate at the top of the y axis.   
 
-You can arrange the y axis how you like by adjusting the values assigned to each discrete variable/name in hydration mapping 
+You can arrange the y axis how you like by adjusting the values assigned to each discrete variable/name in hydration mapping:  
+    "lansfordite": 6,
+    "giorgiosite": 7,  
+
+
 
