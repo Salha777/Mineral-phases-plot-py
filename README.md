@@ -34,11 +34,13 @@ Below is an outline of how the script works and by exntension, how to adapt it f
 -Change the path of pd.read_excel("**phasedata-example.xlsx**, engine='openpyxl') to the path of your excel sheet, if using a csv you can change this line to pd.read_csv("your_csv")   
 -Run the script with python scatter-xrd-phases-linked.py  else in an IDE like VStudio Code and voila.     
 
-Assuming you've got more than the two columns in your sheet, you can generate a plot like this: ![Alt text](scattered-xrd-phases.png)   
+Assuming you've got more than the two columns in your sheet, you can generate a plot like this: ![Alt text](phase-plot.png)   
 
 # How the script works   
 The X axis can hold any discrete variable used as a name for the MgSource, as well as cases where two different Mg_Sources are combined as the reactants such as E + D. 
 The first two chunks in the script help clean the data of both MgSource and Main_Phases, so that you don't have to pay particular attention when marking down these names in your sheet e.g. Nesq is read as nesquehonite and plotted accordingly   
 
-Because there are several phases of magnesium carbonate, we decided to arrange them by A. whether or 
+Because there are several phases of magnesium carbonate, we decided to arrange them by A. whether or not they were magnesium carbonates or simply unreacted Mg_Sources and B. how much water each phase holds, hence the giorgiosite and ammonium magnesium carbonate at the top of the y axis.   
+
+You can arrange the y axis how you like by adjusting the values assigned to each discrete variable/name in hydration mapping 
 
