@@ -34,4 +34,5 @@ Below is an outline of how the script works and by exntension, how to adapt it f
 -Change the path of pd.read_excel("**phasedata-example.xlsx**, engine='openpyxl') to the path of your excel sheet, if using a csv you can change this line to pd.read_csv("your_csv")   
 -Run the script with python scatter-xrd-phases-linked.py  else in an IDE like VStudio Code and voila.     
 
-Assuming you've got more than the two columns in your sheet, you can generate a plot like this: 
+Assuming you've got more than the two columns in your sheet, you can generate a plot like this: ![Alt text](scattered-xrd-phases.png)
+
