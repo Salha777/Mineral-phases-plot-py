@@ -53,7 +53,9 @@ From there we split the data into single phase and biphasic rows, while explodin
 |-------------|-----------|------|------------------------|
 | 1403/ A     | A         | 23   | Nesq + Artinite        |
 
-Becomes:    
+Becomes:  
+| Sample      | Mg_Source | T/°C | Main_Phases           |
+|-------------|-----------|------|------------------------|
 | 1403/ A     | A         | 23   | Nesq                   |
 | 1403/ A     | A         | 23   | Artinite               |
 
