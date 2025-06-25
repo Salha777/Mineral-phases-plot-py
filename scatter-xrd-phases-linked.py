@@ -12,8 +12,8 @@ df["Mg_Source"] = df["Mg_Source"].astype(str).str.strip().str.replace(r'\s+', ' 
 
 # --- Hydration mapping ---
 hydration_mapping = {
-    "magnesium citrate hydrate": 0, "mgcit": 0, "mgcitrate": 0,"unreacted mgso4": 0,
-    "ammonium magnesium sulfate hydrate": 1, "epsomite": 1,
+    "C hydrate": 0, "c": 0, "C": 0,"unreacted D": 0,
+    "ammonium D": 1, "D'ite'": 1,
     "magnesite": 2,
     "nesquehonite": 3, "nesq": 3,
     "artinite": 4,
@@ -22,7 +22,7 @@ hydration_mapping = {
     "giorgiosite": 7,
     "ammonium magnesium carbonate hydrate": 8,
     "pending": np.nan, "acetamido complex": np.nan,
-    "mgso4": np.nan, "unknown": np.nan, "-": np.nan,
+     "unknown": np.nan, "-": np.nan,
 }
 
 def extract_hydration_rank(phases):
