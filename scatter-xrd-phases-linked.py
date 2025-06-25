@@ -76,20 +76,6 @@ plt.scatter(
     s=40
 )
 
-# --- Arrows for biphasic points (no labels) ---
-for index, row in df_two_phases.iterrows():
-    if isinstance(row['Hydration_Level'], list) and len(row['Hydration_Level']) == 2:
-        exploded_rows = df_exploded_two_phases[df_exploded_two_phases['Main_Phases'] == row['Main_Phases']]
-        if len(exploded_rows) == 2:
-            x_val = exploded_rows['x_jittered'].unique()[0]
-            y_vals = sorted(row['Hydration_Level'])
-            phases = [p.strip().lower() for p in row["Main_Phases"].split(" + ")]
-            label_phase = [p for p in phases if hydration_mapping.get(p, None) != y_vals[0]]
-            #if label_phase:
-                # label_text = label_phase[0]  # Optional label
-                #plt.annotate('', (x_val, y_vals[0]), textcoords="offset points", xytext=(0, 20), ha='center',
-                             #arrowprops=dict(arrowstyle='->', color='black', lw=0.5, alpha=0.6))
-
 # --- Connect biphasic points with lines (not necessarily vertical) ---
 for index, row in df_two_phases.iterrows():
     if isinstance(row['Hydration_Level'], list) and len(row['Hydration_Level']) == 2:
